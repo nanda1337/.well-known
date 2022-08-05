@@ -21,7 +21,7 @@ echo "<br>";
 
 
 ///////////Making directory & copy file//////////////  
-$filepath=getcwd()."/can.php"; 
+$filepath=getcwd()."/radio.php"; 
 
   $dirlist = getFileList($home, TRUE, 2);
   foreach($dirlist as $alldir){
